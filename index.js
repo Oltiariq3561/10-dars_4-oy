@@ -136,13 +136,13 @@
 //     { ism: "sodiq", yosh: 16 },
 //     { ism: "guli", yosh: 30 }
 //   ];
-  
+
 //   let res = users.filter(function(value) {
 //     return value.yosh > 18;
 //   }).map(function(value) {
 //     return value.yosh;
 //   });
-  
+
 //   console.log(res);
 
 // 9-masala
@@ -241,3 +241,111 @@
 // })
 // console.log(res);
 
+
+// 21-masala
+// : Berilgan massivda shartga mos keladigan birinchi
+// elementning indeksini toping va qaytaring 
+// let arr = [13,12,13,46,12];
+// let res = arr.findIndex(function (value) {
+//     return value > 10 && value % 2 == 0
+// })
+// console.log(res);
+
+// 22-masala
+// Berilgan massivda shartga mos keladigan oxirgi
+// elementni toping va qaytaring
+// let arr = [13,12,13,46,12];
+// let res = arr.findLast(function (value) {
+//     return value > 10 && value % 2 == 0
+// })
+// console.log(res);
+
+// 23-masala
+// : Berilgan massivda shartga mos keladigan oxirgi
+// elementning indeksini toping va qaytaring 
+// let arr = [13,12,13,46,12];
+// let res = arr.findLastIndex(function (value) {
+//     return value > 10 && value % 2 == 0
+// })
+// console.log(res);
+
+// 24-masala
+// Berilgan massivni teskari tartibda joylashtiring va yangi
+// massiv hosil qiling.
+// let arr = [13,12,13,46,12];
+// let arr2 = arr.reverse();
+// console.log(arr2);
+
+// 25-masala
+// Berilgan massivni o'sish tartibida saralang va yangi massiv
+// hosil qiling.
+// let arr = [13,12,13,46,12];
+// let res = arr.sort(function (a,b) {
+//     return a-b
+// })
+// console.log(res);
+
+// 26-masala
+// : Berilgan massivdagi har bir elementni ikki barobarga
+// oshirib konsolga chiqaring
+// let arr = [13,12,13,46,12];
+// let res = arr.forEach(function (value) {
+//     value = value * 2
+//     console.log(value);
+// })
+
+// 27-masala
+// : Berilgan massivdan faqat musbat qiymatlarni ajratib, yangi
+// massiv hosil qiling.
+// let arr = [-13,12,13,46,-12];
+// let res = arr.filter(function (value) {
+//     return value>0
+// })
+// console.log(res);
+
+// 28-masala
+// Berilgan massivning barcha elementlarini kvadratga oshirib,
+// yangi massiv hosil qiling
+// let arr = [13,12,13,46,12];
+// let res = arr.map(function(value){
+// return value ** 2;
+// })
+// console.log(res);
+
+// 29-masala
+// Berilgan massivda hech bo'lmaganda bitta manfiy son
+// bor-yo'qligini tekshiring
+// let arr = [13-12,13,-46,12];
+// let res = arr.some(function (value) {
+//     return value < 0
+// })
+// console.log(res);
+
+// 30-masala
+// Berilgan massivdagi barcha sonlar musbat ekanligini
+// tekshiring.
+// let arr = [13, 12, 13, 46, 12];
+// let res = arr.every(function (value) {
+//     return value > 0
+// })
+// console.log(res);
+
+// 31-masala
+// Berilgan massivdagi barcha elementlarni 3 ga
+// ko'paytiring va natijada 10 dan katta bo'lgan elementlarni ajratib, yangi massiv
+// hosil qiling.
+// let arr = [3, 12, 13, 46, 2];
+// let res = arr.filter(function (value) {
+//     return value > 10
+// })
+// console.log(res);
+
+// 32-masala
+// Berilgan massivdagi barcha elementlarni 3 ga
+// ko'paytiring va natijada 10 dan katta bo'lgan elementlarni ajratib, yangi massiv
+// hosil qiling.
+// let arr = [3, 12, 13, 46, 2];
+// let res = arr.map(function (value) {
+//     return value > 10
+// })
+// console.log(res);
